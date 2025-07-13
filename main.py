@@ -24,7 +24,7 @@ root.title("Basic Calculator")
 entry = tk.Entry(root, width=25, borderwidth=3, font=('Arial', 16))
 entry.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
 
-# Butoons
+# Buttons
 buttons = [
     ('7', 1, 0), ('8', 1, 1), ('9', 1, 2), ('/', 1, 3),
     ('4', 2, 0), ('5', 2, 1), ('6', 2, 2), ('*', 2, 3),
